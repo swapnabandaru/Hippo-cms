@@ -1,0 +1,63 @@
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'lulucms'='http://www.onehippo.org/lulucms/nt/1.0'>
+
+[lulucms:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[lulucms:DailyTips] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:ImportantDocs] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:NewAndUpcomingProducts] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:NewReleases] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:Sample] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:SecurityQuiz] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:SecurityTips] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:Securitytips] > hippo:compound, hippostd:relaxed
+  orderable
+
+[lulucms:Securitytipsone] > hippo:compound, hippostd:relaxed
+  orderable
+
+[lulucms:ServiceTips] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:faqitem] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:faqlist] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:releasenotes] > hippo:compound, hippostd:relaxed
+  orderable
+
+[lulucms:security] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:securityquiz] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+
+[lulucms:securitytips] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[lulucms:servicetips] > hippo:compound, hippostd:relaxed
+  orderable
+
+[lulucms:starPerformer] > hippostd:relaxed, hippotranslation:translated, lulucms:basedocument
+  orderable
+

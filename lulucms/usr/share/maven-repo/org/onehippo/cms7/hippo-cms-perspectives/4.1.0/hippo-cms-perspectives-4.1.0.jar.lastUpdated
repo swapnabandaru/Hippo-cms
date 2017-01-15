@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 27 12:49:57 GST 2016
+@default-hippo-maven2-https\://maven.onehippo.com/maven2/.lastUpdated=1482828597204
+https\://maven.onehippo.com/maven2-forge/.error=
+https\://maven.onehippo.com/maven2-forge/.lastUpdated=1482828310236
+https\://repo.maven.apache.org/maven2/.lastUpdated=1482828360971
+@default-hippo-https\://maven.onehippo.com/maven2/.lastUpdated=1482828594292
+https\://maven.onehippo.com/maven2/.error=Could not transfer artifact org.onehippo.cms7\:hippo-cms-perspectives\:jar\:4.1.0 from/to hippo-maven2 (https\://maven.onehippo.com/maven2/)\: GET request of\: org/onehippo/cms7/hippo-cms-perspectives/4.1.0/hippo-cms-perspectives-4.1.0.jar from hippo-maven2 failed
+https\://repo.maven.apache.org/maven2/.error=

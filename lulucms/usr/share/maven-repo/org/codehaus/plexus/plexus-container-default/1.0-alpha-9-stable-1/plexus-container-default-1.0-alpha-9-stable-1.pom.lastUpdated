@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Dec 27 12:33:49 GST 2016
+https\://repo.maven.apache.org/maven2/.lastUpdated=1482827629352
+@default-hippo-https\://maven.onehippo.com/maven2/.lastUpdated=1482827629060
+https\://maven.onehippo.com/maven2/.error=Could not transfer artifact org.codehaus.plexus\:plexus-container-default\:pom\:1.0-alpha-9-stable-1 from/to hippo (https\://maven.onehippo.com/maven2/)\: Remote host closed connection during handshake

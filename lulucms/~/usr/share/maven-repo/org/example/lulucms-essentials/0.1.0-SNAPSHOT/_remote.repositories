@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Dec 29 13:41:49 GST 2016
+lulucms-essentials-0.1.0-SNAPSHOT.war>=
+lulucms-essentials-0.1.0-SNAPSHOT-sources.jar>=
+lulucms-essentials-0.1.0-SNAPSHOT.pom>=

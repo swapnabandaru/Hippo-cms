@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="global">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:named</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>8165a7b4-63a6-4cbe-a8ed-131d090cc431</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>Global</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>5663f7f5-b90f-40d5-b848-94a553f8daa1</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="service-tips">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>6cedf60a-2cbe-48b8-83f3-6e0c94fb6034</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Service Tips</sv:value>
+    </sv:property>
+    <sv:node sv:name="service-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:ServiceTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8d6eff44-dd35-4f33-88dd-1fe3d235f642</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/service-tips/service-tips[2]</sv:value>
+        <sv:value>global/service-tips/service-tips[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:39:27.628+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:18:55.570+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e9095487-d411-4dfe-95fe-e687c75b9849</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Leave your worries at the door...!</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip1" sv:type="String">
+        <sv:value>Smile and Greet - Make the Customer Feel Welcome</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip2" sv:type="String">
+        <sv:value>Listen</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip3" sv:type="String">
+        <sv:value>Learn Your Business – Be An Expert</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip4" sv:type="String">
+        <sv:value>Be True to Your Word</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip5" sv:type="String">
+        <sv:value>Be Memorable – For the Right Reasons</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="service-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:ServiceTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>25c4991f-627a-4451-8289-d1a526c02e6f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/service-tips/service-tips[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:39:27.628+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:19:38.268+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e9095487-d411-4dfe-95fe-e687c75b9849</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Leave your worries at the door...!</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip1" sv:type="String">
+        <sv:value>Smile and Greet - Make the Customer Feel Welcome</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip2" sv:type="String">
+        <sv:value>Listen</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip3" sv:type="String">
+        <sv:value>Learn Your Business – Be An Expert</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip4" sv:type="String">
+        <sv:value>Be True to Your Word</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip5" sv:type="String">
+        <sv:value>Be Memorable – For the Right Reasons</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="service-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:ServiceTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3260d30e-b300-4d56-bc1b-2a000dc165f5</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/service-tips/service-tips[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:39:27.628+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:19:38.268+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:19:57.703+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e9095487-d411-4dfe-95fe-e687c75b9849</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Leave your worries at the door...!</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip1" sv:type="String">
+        <sv:value>Smile and Greet - Make the Customer Feel Welcome</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip2" sv:type="String">
+        <sv:value>Listen</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip3" sv:type="String">
+        <sv:value>Learn Your Business – Be An Expert</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip4" sv:type="String">
+        <sv:value>Be True to Your Word</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip5" sv:type="String">
+        <sv:value>Be Memorable – For the Right Reasons</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="security-tips">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>558274c6-72c0-46e2-9185-c434460121e2</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Security Tips</sv:value>
+    </sv:property>
+    <sv:node sv:name="security-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:SecurityTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b9b90459-cd88-4368-8ac6-f51c379f111e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/security-tips/security-tips[2]</sv:value>
+        <sv:value>global/security-tips/security-tips[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:40:27.626+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:31:30.204+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e82ad32f-9fb8-470b-bfd7-fa6d8d98b8de</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Be alert at all times!!!</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip1" sv:type="String">
+        <sv:value>Always be careful when clicking on attachments or links in email.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip2" sv:type="String">
+        <sv:value>If it’s unexpected or suspicious for any reason, don’t click on it.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip3" sv:type="String">
+        <sv:value>Double check the URL of the website the link takes you to.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip4" sv:type="String">
+        <sv:value>Bad actors will often take advantage of spelling mistakes to direct you to a harmful domain.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="security-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:SecurityTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3a7666a2-54a5-49df-90a4-60c6dae9b5af</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/security-tips/security-tips[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:40:27.626+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:31:30.147+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e82ad32f-9fb8-470b-bfd7-fa6d8d98b8de</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Be alert at all times!!!</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip1" sv:type="String">
+        <sv:value>Always be careful when clicking on attachments or links in email.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip2" sv:type="String">
+        <sv:value>If it’s unexpected or suspicious for any reason, don’t click on it.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip3" sv:type="String">
+        <sv:value>Double check the URL of the website the link takes you to.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip4" sv:type="String">
+        <sv:value>Bad actors will often take advantage of spelling mistakes to direct you to a harmful domain.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="security-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:SecurityTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f2b627e9-d850-4099-9a52-83610feba385</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/security-tips/security-tips[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:40:27.626+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:31:30.147+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:31:37.234+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e82ad32f-9fb8-470b-bfd7-fa6d8d98b8de</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Be alert at all times!!!</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip1" sv:type="String">
+        <sv:value>Always be careful when clicking on attachments or links in email.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip2" sv:type="String">
+        <sv:value>If it’s unexpected or suspicious for any reason, don’t click on it.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip3" sv:type="String">
+        <sv:value>Double check the URL of the website the link takes you to.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:securityTip4" sv:type="String">
+        <sv:value>Bad actors will often take advantage of spelling mistakes to direct you to a harmful domain.</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="security-quiz">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5baad31c-9a88-400e-aa2b-145d0f9bf54c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Security Quiz</sv:value>
+    </sv:property>
+    <sv:node sv:name="security-quiz">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:SecurityQuiz</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9ae0beee-e806-43e3-97a4-9ea9ae2fd85b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/security-quiz/security-quiz[3]</sv:value>
+        <sv:value>global/security-quiz/security-quiz[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:40:48.797+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:44:40.553+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>author</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9fe5447e-7d0e-4094-9424-c82d8fb7eb04</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Think you can spot a phony website? Try this Phishing Quiz</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="lulucms:hippogallerypicker_imagelink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="lulucms:clickHereButton">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>6e86589c-087a-4c0f-b62e-bc3c365155b7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="security-quiz">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:SecurityQuiz</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9e503f26-c2f6-4625-871c-7b6a6a72bdec</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/security-quiz/security-quiz[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:40:48.797+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:56:50.605+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>author</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9fe5447e-7d0e-4094-9424-c82d8fb7eb04</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Think you can spot a phony website? Try this Phishing Quiz</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="lulucms:hippogallerypicker_imagelink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="lulucms:clickHereButton">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>6e86589c-087a-4c0f-b62e-bc3c365155b7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="security-quiz">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:SecurityQuiz</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1b99896d-2367-45fa-9e5f-48eece89ff1d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/security-quiz/security-quiz[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:40:48.797+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:56:50.605+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>author</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:58:14.873+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>9fe5447e-7d0e-4094-9424-c82d8fb7eb04</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:caption" sv:type="String">
+        <sv:value>Think you can spot a phony website? Try this Phishing Quiz</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="lulucms:hippogallerypicker_imagelink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="lulucms:clickHereButton">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>6e86589c-087a-4c0f-b62e-bc3c365155b7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="daily-tips">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8513dd52-3f36-43ed-9216-7d7aa5356a3c</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Daily Tips</sv:value>
+    </sv:property>
+    <sv:node sv:name="daily-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:DailyTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>60802325-ce9f-4ff1-9d87-596c4f8d5290</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/daily-tips/daily-tips[2]</sv:value>
+        <sv:value>global/daily-tips/daily-tips[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:41:26.963+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:32:07.006+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0355c5b4-1c4b-4a6d-9a07-a1273839fe86</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:dailyTip" sv:type="String">
+        <sv:value>Backup your data regularly, and make sure your antivirus software is always up to date</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="daily-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:DailyTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>615dc3af-02eb-4b21-a6b4-14afe713eee1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/daily-tips/daily-tips[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:41:26.963+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:32:06.957+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0355c5b4-1c4b-4a6d-9a07-a1273839fe86</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:dailyTip" sv:type="String">
+        <sv:value>Backup your data regularly, and make sure your antivirus software is always up to date</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="daily-tips">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:DailyTips</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ab58cc86-c7b9-40bb-b718-31381f69fa2e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/daily-tips/daily-tips[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:41:26.963+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:32:06.957+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:32:09.374+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0355c5b4-1c4b-4a6d-9a07-a1273839fe86</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:dailyTip" sv:type="String">
+        <sv:value>Backup your data regularly, and make sure your antivirus software is always up to date</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="important-docs">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>87e2845b-b4fc-4204-a65f-55c5b5fbca0a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Important Docs</sv:value>
+    </sv:property>
+    <sv:node sv:name="important-docs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:ImportantDocs</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fb2f8dda-2b7d-4a0b-bea4-f038614eda3e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/important-docs/important-docs[3]</sv:value>
+        <sv:value>global/important-docs/important-docs[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:42:28.310+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T11:32:49.921+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2c010948-71bc-45f0-98c0-e4d456c2ce96</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName1WithLink" sv:type="String">
+        <sv:value>Document Name 1</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName2WithLink" sv:type="String">
+        <sv:value>Document Name 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName3WithLink" sv:type="String">
+        <sv:value>Document Name 3</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName4WithLink" sv:type="String">
+        <sv:value>Document Name 4</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName5WithLink" sv:type="String">
+        <sv:value>Document Name 5</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="lulucms:hippogallerypicker_imagelink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="lulucms:captionAsImage">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>2ac6512e-7cfe-445b-bfa3-1772dbc4b433</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="important-docs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:ImportantDocs</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8ffef85e-9500-4147-87e2-7eee45c78012</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/important-docs/important-docs[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:42:28.310+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T12:06:02.214+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2c010948-71bc-45f0-98c0-e4d456c2ce96</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName1WithLink" sv:type="String">
+        <sv:value>Document Name 1</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName2WithLink" sv:type="String">
+        <sv:value>Document Name 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName3WithLink" sv:type="String">
+        <sv:value>Document Name 3</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName4WithLink" sv:type="String">
+        <sv:value>Document Name 4</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName5WithLink" sv:type="String">
+        <sv:value>Document Name 5</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="lulucms:hippogallerypicker_imagelink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="lulucms:captionAsImage">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>2ac6512e-7cfe-445b-bfa3-1772dbc4b433</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="important-docs">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:ImportantDocs</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6bc0bb96-d433-4607-b193-6b26df52de9d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/important-docs/important-docs[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-27T18:42:28.310+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-28T12:06:02.214+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-12-28T12:07:13.671+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>2c010948-71bc-45f0-98c0-e4d456c2ce96</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName1WithLink" sv:type="String">
+        <sv:value>Document Name 1</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName2WithLink" sv:type="String">
+        <sv:value>Document Name 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName3WithLink" sv:type="String">
+        <sv:value>Document Name 3</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName4WithLink" sv:type="String">
+        <sv:value>Document Name 4</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:documentName5WithLink" sv:type="String">
+        <sv:value>Document Name 5</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string_" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string__" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string___" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="lulucms:string____" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:node sv:name="lulucms:hippogallerypicker_imagelink">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="lulucms:captionAsImage">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>2ac6512e-7cfe-445b-bfa3-1772dbc4b433</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="sample">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f250e98f-5a2d-480b-92f8-792a9e6d9eb2</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Sample</sv:value>
+    </sv:property>
+    <sv:node sv:name="sample">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:Sample</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0ba1fb61-e73e-452a-871e-2648cea0af34</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/sample/sample[3]</sv:value>
+        <sv:value>global/sample/sample[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-29T17:56:03.881+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-29T17:57:56.661+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d06a80b7-a6c2-4ca2-ae44-a8d9a5967d38</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:calendardate" sv:type="Date">
+        <sv:value>2016-12-29T04:00:00.000+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:staticdropdown" sv:type="String">
+        <sv:value>Sample 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String" sv:multiple="true">
+        <sv:value>Hi, This is a Sample String</sv:value>
+        <sv:value>Hi, I am another Sample String</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="sample">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:Sample</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e6da9a98-027f-454e-8f52-f06b188f5902</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/sample/sample[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-29T17:56:03.881+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-29T17:58:33.376+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d06a80b7-a6c2-4ca2-ae44-a8d9a5967d38</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:calendardate" sv:type="Date">
+        <sv:value>2016-12-29T04:00:00.000+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:staticdropdown" sv:type="String">
+        <sv:value>Sample 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String" sv:multiple="true">
+        <sv:value>Hi, This is a Sample String</sv:value>
+        <sv:value>Hi, I am another Sample String</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="sample">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>lulucms:Sample</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>af308a0a-5ef4-4adb-8bc0-dfa40d084b81</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>global/sample/sample[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-12-29T17:56:03.881+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-12-29T17:58:33.376+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-12-29T17:59:16.976+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>d06a80b7-a6c2-4ca2-ae44-a8d9a5967d38</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:calendardate" sv:type="Date">
+        <sv:value>2016-12-29T04:00:00.000+04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:staticdropdown" sv:type="String">
+        <sv:value>Sample 2</sv:value>
+      </sv:property>
+      <sv:property sv:name="lulucms:string" sv:type="String" sv:multiple="true">
+        <sv:value>Hi, This is a Sample String</sv:value>
+        <sv:value>Hi, I am another Sample String</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

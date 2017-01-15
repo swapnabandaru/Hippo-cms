@@ -1,0 +1,94 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-faq-item-folder": "new FAQ item folder",
+      "new-faq-list": "new FAQ list",
+      "new-resource-bundle": "new resource bundle",
+      "new-faq-item": "new FAQ item",
+      "new-faq-list-document-folder": "new FAQ list folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-poll-folder": "new poll folder",
+      "new-poll-document": "new poll document"
+    },
+    "nl":     {
+      "new-faq-item-folder": "nieuwe FAQ item map",
+      "new-faq-list": "nieuwe FAQ lijst",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-faq-item": "nieuw FAQ item",
+      "new-faq-list-document-folder": "nieuwe FAQ lijst map",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-poll-folder": "nieuwe pollmap",
+      "new-poll-document": "nieuwe poll"
+    },
+    "de":     {
+      "new-faq-item-folder": "Neues FAQ-Item-Ordner",
+      "new-faq-list": "Neue FAQ-Liste",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-faq-item": "Neues FAQ-Item",
+      "new-faq-list-document-folder": "Neuer FAQ-Listen-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-poll-folder": "Neuer Poll-Ordner",
+      "new-poll-document": "Neue Poll"
+    },
+    "fr":     {
+      "new-faq-item-folder": "nouveau dossier élément FAQ",
+      "new-faq-list": "nouvelle liste FAQ",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-faq-item": "nouvel élément FAQ",
+      "new-faq-list-document-folder": "nouveau dossier liste FAQ",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-poll-folder": "nouveau dossier sondage",
+      "new-poll-document": "nouveau sondage"
+    }
+  },
+  "hippo:types":   {
+    "lulucms:faqitem":     {
+      "en":       {
+        "lulucms:answer": "Answer",
+        "lulucms:question": "Question",
+        "jcr:name": "FAQ Item"
+      },
+      "nl":       {
+        "lulucms:answer": "Antwoord",
+        "lulucms:question": "Vraag",
+        "jcr:name": "FAQ Item"
+      },
+      "fr":       {
+        "lulucms:answer": "Réponse",
+        "lulucms:question": "Question",
+        "jcr:name": "Élément de FAQ"
+      },
+      "de":       {
+        "lulucms:answer": "Antwort",
+        "lulucms:question": "Frage",
+        "jcr:name": "FAQ-Item"
+      }
+    },
+    "lulucms:faqlist":     {
+      "en":       {
+        "lulucms:description": "Description",
+        "jcr:name": "FAQ List",
+        "lulucms:title": "Title",
+        "lulucms:faqitem": "FAQ items"
+      },
+      "nl":       {
+        "lulucms:description": "Beschrijving",
+        "jcr:name": "FAQ Lijst",
+        "lulucms:title": "Titel",
+        "lulucms:faqitem": "FAQ items"
+      },
+      "fr":       {
+        "lulucms:description": "Description",
+        "jcr:name": "Liste de FAQ",
+        "lulucms:title": "Titre",
+        "lulucms:faqitem": "Éléments de FAQ"
+      },
+      "de":       {
+        "lulucms:description": "Beschreibung",
+        "jcr:name": "FAQ-Liste",
+        "lulucms:title": "Titel",
+        "lulucms:faqitem": "FAQ-Items"
+      }
+    }
+  }
+}
